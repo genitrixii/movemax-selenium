@@ -37,7 +37,7 @@ public class Utility {
 			driver.manage().window().maximize();
 		}
 		driver.get(fURL);
-		driver.navigate().refresh();
+		
 	}
 
 	public void login() {
